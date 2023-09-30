@@ -153,7 +153,7 @@ export default function Home() {
                   <p className="text-4xl font-bold text-white tracking-wider">SURPRESA</p>
                 </div>
                 <p className="py-4 text-sm my-4 border-y border-zinc-300 text-zinc-300">Clique no botão abaixo para entrar no <strong>grupo VIP</strong> onde será anunciado o valor promocional.</p>
-                <a href="" className="mb-4 rounded-lg grad py-3 font-bold text-center text-white">QUERO APRENDER COM O JUNINHO</a>
+                <a href="https://chat.whatsapp.com/Gn8svQ3PG7pCo3oA8yoLZu" className="mb-4 rounded-lg grad py-3 font-bold text-center text-white">QUERO APRENDER COM O JUNINHO</a>
                 <Image
                   src="/images/icons/security.png"
                   alt="imagens de pagamento"
