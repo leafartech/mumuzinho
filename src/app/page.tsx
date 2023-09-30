@@ -12,7 +12,7 @@ export default function Home() {
       <header className="bg-black relative parallax-1 h-screen w-full flex items-end sm:items-center justify-center">
         <img src="./images/bg/3.png" alt="" className="block sm:hidden absolute top-0 left-0  min-w-full" />
         <div className="absolute bg-gradient-to-t from-black to-black/0 sm:bg-black/30 top-0 left-0 w-full h-screen"></div>
-        <div className="w-full max-w-6xl flex justify-start text-white z-10 -translate-y-12">
+        <div className="w-full max-w-6xl flex justify-start text-white z-10 -translate-y-16">
           <div className="w-full max-w-xl flex flex-col gap-2 sm:gap-5 px-4 sm:px-0">
             <h1 className="text-4xl sm:text-6xl font-bold">A maior oferta do <span className="letter-grad">Juninho Rezende</span></h1>
             <p className="text-lg">Desconto inacreditável para você tirar do papel o sonho de evoluir no cavaquinho ou aprender do zero.</p>
