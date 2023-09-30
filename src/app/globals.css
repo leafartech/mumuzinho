@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parallax-1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('../../public/images/bg/1.png')
+}
+.parallax-2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('../../public/images/bg/2.png')
+}
+
+.grad {
+  background: var(--grad, linear-gradient(90deg, #FFD600 0.09%, #BD9F00 51.07%, #FFD600 99.98%));
+}
+.grad-2 {
+  background: var(--grad, linear-gradient(180deg, #FFD600 0.09%, #BD9F00 51.07%, #FFD600 99.98%));
+}
+.grad-3 {
+  background: var(--grad, linear-gradient(135deg, #FFD600 0.09%, #BD9F00 99.88% ));
+}
+.grad-4 {
+  background: #fff
+}
+.letter-grad {
+  background: var(--grad, linear-gradient(90deg, #FFD600 0.09%, #BD9F00 51.07%, #FFD600 99.98%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.my-shadow {
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.10);
+}
+@media (max-width: 450px) {
+  .height {
+    line-height: 24px;
+  }
+  .parallax-1 {
+    background-image: none;
+    background-attachment: local;
+  }
+  .parallax-2 {
+    background-image: none;
+    background-attachment: local;
+  }
+  .grad-4 {
+    background: var(--grad, linear-gradient(135deg, #FFD600 0.09%, #b99e19 50.88%, #FFD600 100% ));
+  }
+}
