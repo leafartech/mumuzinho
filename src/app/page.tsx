@@ -14,7 +14,7 @@ export default function Home() {
         <div className="w-full max-w-6xl flex justify-start text-white z-10 -translate-y-20">
           <div className="w-full max-w-xl flex flex-col gap-2 sm:gap-5 px-4 sm:px-0">
             <h1 className="text-4xl sm:text-6xl font-bold">A maior oferta do <span className="letter-grad">Juninho Rezende</span></h1>
-            <p className="text-lg">Desconto inacreditável para você tirar do papel o sonho de evoluir no cavaquinho ou aprender do zero.</p>
+            <p className="text-sm">A melhor oportunidade para você, cavaquinista, aprender de verdade através de mais de 1.000 aulas, com acesso ao dicionário de acordes com mais de 5.000 posições e ainda concorrer a um sorteio de um cavaco RZD  captado com case.</p>
             <RedirectButton />
           </div>
         </div>
