@@ -55,7 +55,7 @@ export default function Home() {
                   <span className="ps-4">Toco</span> cavaquinho há 18 anos e há 10 como profissional. Quando comecei tive muita dificuldade em evoluir no cavaquinho porque o acesso ao conteúdo era muito complicado.
                 </p>
                 <p className="text-zinc-600 text-lg">
-                <span className="ps-4">E</span> para você não passar por isso, decidi juntar todo meu conhecimento em um combo completo e por um preço muito acessível para quem sempre teve o sonho de tocar cavaquinho.
+                  <span className="ps-4">E</span> para você não passar por isso, decidi juntar todo meu conhecimento em um combo completo e por um preço muito acessível para quem sempre teve o sonho de tocar cavaquinho.
                 </p>
                 <img src="./images/icons/right.png" alt="" className="opacity-50 absolute bottom-0 right-0 sm:-right-4 w-4" />
               </div>
@@ -64,6 +64,14 @@ export default function Home() {
           </div>
         </Section>
         <Section classNames="pt-16 sm:pt-32">
+          <div className="max-w-lg flex flex-col gap-2 items-center justify-center mb-12 text-left sm:text-center sm:px-12 sm:py-12 sm:border-2 sm:border-black sm:rounded-md">
+            <h1 className="text-4xl font-bold">Sorteio do Cavaco RZD</h1>
+            <p className="text-lg">Os 30 primeiros inscritos estarão participando automaticamente do sorteio do cavaquinho RZD captado e com case!</p>
+            <div className="w-full flex justify-center">
+              <a href="#oferta" className="text-white w-full sm:max-w-xs text-center grad-3 text-lg py-3 px-3 font-bold rounded-lg">Quero aprender com o Juninho</a>
+
+            </div>
+          </div>
           <HeroFlex
             title="Tudo que você irá receber"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
